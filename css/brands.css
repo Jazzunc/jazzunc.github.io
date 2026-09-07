@@ -308,7 +308,7 @@
 .button-letterboxd {
 	--button-text:#ffffff;
 	--button-background:#2c3440;
-	--button-border:1px solid #FFFFFF;
+
 }
 
 /* Line */
@@ -607,7 +607,7 @@
 .button-yt {
 	--button-text:#ffffff;
 	--button-background:#282828;
-	--button-border:1px solid #FFFFFF;
+
 }
 
 /* YouTube Music */
@@ -658,5 +658,5 @@
 
 /* Custom Header Color */
 h1 {
-  color: #D4C4FF !important;
+  color: #CEBCFF !important;
 }
