@@ -679,28 +679,28 @@ h1 + p, .subtitle {
 
 /* Twitch - Exact #9146FF */
 .button-twitch {
-  --button-background: #282828 !important;
+  --button-background: #282828;
 }
 .button-twitch .icon {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0 #9146FF) !important;
+  filter: brightness(0) invert(1) drop-shadow(0 0 0 #9146FF);
 }
 
 /* Discord - Exact #5865F2 */
 .button-discord {
-  --button-background: #282828 !important;
+  --button-background: #282828;
 }
 .button-discord .icon {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0 #5865F2) !important;
+  filter: brightness(0) invert(1) drop-shadow(0 0 0 #5865F2);
 }
 
 /* Bluesky - Exact #1185FE */
 .button-bluesky,
 .button-bluesky-alt {
-  --button-background: #282828 !important;
-  --button-text: #ffffff !important;
-  --button-border: none !important;
+  --button-background: #282828;
+  --button-text: #ffffff;
+  --button-border: none;
 }
 .button-bluesky .icon,
 .button-bluesky-alt .icon {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0 #1185FE) !important;
+  filter: brightness(0) invert(1) drop-shadow(0 0 0 #1185FE);
 }
