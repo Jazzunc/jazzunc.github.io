@@ -638,14 +638,14 @@
 
 /* StoryGraph */
 .button-storygraph {
-  background-color: #282828;
-  color: #ffffff;
+	--button-text:#ffffff;
+	--button-background:#282828;
 }
 
 /* Deku Deals */
 .button-dekudeals {
-  background-color: #282828;
-  color: #ffffff;
+	--button-text:#ffffff;
+	--button-background:#282828;
 }
 
 /* Custom Header & Subtitle Colors and Spacing */
