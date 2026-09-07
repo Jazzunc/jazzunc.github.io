@@ -677,23 +677,12 @@ h1 + p, .subtitle {
   --button-background: #282828;
 }
 
-/* Bluesky Alt Dark Theme Override */
-.button-bluesky-alt {
-  --button-background: #282828;
-  --button-text: #ffffff
-}
-
-.button-bluesky-alt .icon {
-  filter: none !important; /* Prevents global dark mode from turning it white */
-}
-
 /* Twitch - Exact #9146FF */
 .button-twitch {
   --button-background: #282828 !important;
 }
 .button-twitch .icon {
-  filter: drop-shadow(0px 0px 0px #9146FF) !important;
-  opacity: 0.99; /* Forces color override */
+  filter: brightness(0) invert(1) drop-shadow(0 0 0 #9146FF) !important;
 }
 
 /* Discord - Exact #5865F2 */
@@ -701,6 +690,17 @@ h1 + p, .subtitle {
   --button-background: #282828 !important;
 }
 .button-discord .icon {
-  filter: drop-shadow(0px 0px 0px #5865F2) !important;
-  opacity: 0.99;
+  filter: brightness(0) invert(1) drop-shadow(0 0 0 #5865F2) !important;
+}
+
+/* Bluesky - Exact #1185FE */
+.button-bluesky,
+.button-bluesky-alt {
+  --button-background: #282828 !important;
+  --button-text: #ffffff !important;
+  --button-border: none !important;
+}
+.button-bluesky .icon,
+.button-bluesky-alt .icon {
+  filter: brightness(0) invert(1) drop-shadow(0 0 0 #1185FE) !important;
 }
