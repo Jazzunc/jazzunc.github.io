@@ -683,12 +683,20 @@ h1 + p, .subtitle {
   --button-text: #ffffff
 }
 
-/* Recolor Twitch Icon (Black -> #9146FF) */
+/* Twitch - Exact #9146FF */
+.button-twitch {
+  --button-background: #282828 !important;
+}
 .button-twitch .icon {
-  filter: invert(36%) sepia(82%) saturate(4686%) hue-rotate(253deg) brightness(101%) contrast(105%) !important;
+  filter: drop-shadow(0px 0px 0px #9146FF) !important;
+  opacity: 0.99; /* Forces color override */
 }
 
-/* Recolor Discord Icon (Black -> #5865F2) */
+/* Discord - Exact #5865F2 */
+.button-discord {
+  --button-background: #282828 !important;
+}
 .button-discord .icon {
-  filter: invert(41%) sepia(83%) saturate(2853%) hue-rotate(224deg) brightness(98%) contrast(93%) !important;
+  filter: drop-shadow(0px 0px 0px #5865F2) !important;
+  opacity: 0.99;
 }
