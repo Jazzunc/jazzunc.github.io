@@ -667,3 +667,12 @@ h1 + p, .subtitle {
   margin-bottom: 2rem !important; /* Keeps spacing above YouTube button */
   opacity: 0.85;
 }
+
+/* Dark Theme Override for Twitch & Discord */
+.button-twitch {
+  --button-background: #282828;
+}
+
+.button-discord {
+  --button-background: #282828;
+}
