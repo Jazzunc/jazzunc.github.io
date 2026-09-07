@@ -325,8 +325,3 @@ ul li {
 	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2') format('woff2');
 }
 
-/* Force hover states for custom buttons to keep white text and uniform background */
-.btn:hover,
-a.btn:hover {
-  color: #ffffff !important;
-}
