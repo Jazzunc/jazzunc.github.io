@@ -635,3 +635,23 @@
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
 }
+
+/* StoryGraph */
+.button-storygraph {
+  background-color: #1b263b;
+  color: #ffffff;
+}
+.button-storygraph:hover {
+  background-color: #2c3e5e;
+  color: #ffffff;
+}
+
+/* Deku Deals */
+.button-dekudeals {
+  background-color: #1a2a3a;
+  color: #ffffff;
+}
+.button-dekudeals:hover {
+  background-color: #24384d;
+  color: #ffffff;
+}
