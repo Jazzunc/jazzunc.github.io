@@ -676,3 +676,15 @@ h1 + p, .subtitle {
 .button-discord {
   --button-background: #282828;
 }
+
+/* Recolor Twitch Icon */
+.button-twitch .icon {
+  fill: #9146FF !important;
+  color: #9146FF !important;
+}
+
+/* Recolor Discord Icon */
+.button-discord .icon {
+  fill: #5865F2 !important;
+  color: #5865F2 !important;
+}
