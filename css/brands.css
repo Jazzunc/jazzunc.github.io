@@ -683,6 +683,10 @@ h1 + p, .subtitle {
   --button-text: #ffffff
 }
 
+.button-bluesky-alt .icon {
+  filter: none !important; /* Prevents global dark mode from turning it white */
+}
+
 /* Twitch - Exact #9146FF */
 .button-twitch {
   --button-background: #282828 !important;
