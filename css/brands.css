@@ -656,7 +656,14 @@
   color: #ffffff;
 }
 
-/* Custom Header Color */
+/* Custom Header & Subtitle Colors and Spacing */
 h1 {
   color: #D4C4FF !important;
+  margin-bottom: 0.25rem !important; /* Reduces gap under nickname */
+}
+
+h1 + p, .subtitle {
+  color: #D4C4FF !important;
+  margin-bottom: 2rem !important; /* Keeps spacing above YouTube button */
+  opacity: 0.85;
 }
