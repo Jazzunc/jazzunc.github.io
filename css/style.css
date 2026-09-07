@@ -329,6 +329,4 @@ ul li {
 .btn:hover,
 a.btn:hover {
   color: #ffffff !important;
-  background-color: #282828 !important; /* Matches your dark button background */
-  opacity: 0.85; /* Subtle fade effect on hover */
 }
