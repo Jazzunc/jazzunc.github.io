@@ -668,39 +668,37 @@ h1 + p, .subtitle {
   opacity: 0.85;
 }
 
-/* Dark Theme Override for Twitch & Discord */
-.button-twitch {
-  --button-background: #282828;
-}
-
-.button-discord {
-  --button-background: #282828;
-}
-
-/* Twitch - Exact #9146FF */
-.button-twitch {
-  --button-background: #282828;
-}
-.button-twitch .icon {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0 #9146FF);
-}
-
-/* Discord - Exact #5865F2 */
-.button-discord {
-  --button-background: #282828;
-}
-.button-discord .icon {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0 #5865F2);
-}
-
-/* Bluesky - Exact #1185FE */
+/* Dark Theme Background Overrides */
+.button-twitch,
+.button-discord,
 .button-bluesky,
 .button-bluesky-alt {
-  --button-background: #282828;
-  --button-text: #ffffff;
-  --button-border: none;
+  --button-background: #282828 !important;
+  --button-text: #ffffff !important;
+  --button-border: none !important;
 }
+
+/* Twitch Mask Recolor (#9146FF) */
+.button-twitch .icon {
+  background-color: #9146FF !important;
+  -webkit-mask: url('../images/icons/twitch.svg') no-repeat center / contain;
+  mask: url('../images/icons/twitch.svg') no-repeat center / contain;
+  filter: none !important;
+}
+
+/* Discord Mask Recolor (#5865F2) */
+.button-discord .icon {
+  background-color: #5865F2 !important;
+  -webkit-mask: url('../images/icons/discord.svg') no-repeat center / contain;
+  mask: url('../images/icons/discord.svg') no-repeat center / contain;
+  filter: none !important;
+}
+
+/* Bluesky Mask Recolor (#1185FE) */
 .button-bluesky .icon,
 .button-bluesky-alt .icon {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0 #1185FE);
+  background-color: #1185FE !important;
+  -webkit-mask: url('../images/icons/bluesky.svg') no-repeat center / contain;
+  mask: url('../images/icons/bluesky.svg') no-repeat center / contain;
+  filter: none !important;
 }
