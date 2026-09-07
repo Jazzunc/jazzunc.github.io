@@ -307,7 +307,7 @@
 /* Letterboxd */
 .button-letterboxd {
 	--button-text:#ffffff;
-	--button-background:#2c3440;
+	--button-background:#282828;
 
 }
 
@@ -638,21 +638,13 @@
 
 /* StoryGraph */
 .button-storygraph {
-  background-color: #1b263b;
-  color: #ffffff;
-}
-.button-storygraph:hover {
-  background-color: #2c3e5e;
+  background-color: #282828;
   color: #ffffff;
 }
 
 /* Deku Deals */
 .button-dekudeals {
-  background-color: #1a2a3a;
-  color: #ffffff;
-}
-.button-dekudeals:hover {
-  background-color: #24384d;
+  background-color: #282828;
   color: #ffffff;
 }
 
