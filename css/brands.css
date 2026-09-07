@@ -679,6 +679,7 @@ h1 + p, .subtitle {
 }
 
 /* Stop LittleLink from turning these specific SVG icons white */
+.button-yt .icon,
 .button-twitch .icon,
 .button-discord .icon,
 .button-bluesky .icon,
