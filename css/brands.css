@@ -668,7 +668,7 @@ h1 + p, .subtitle {
   opacity: 0.85;
 }
 
-/* Dark Theme Background Overrides */
+/* Uniform Dark Slate Buttons */
 .button-twitch,
 .button-discord,
 .button-bluesky,
@@ -678,27 +678,10 @@ h1 + p, .subtitle {
   --button-border: none !important;
 }
 
-/* Twitch Mask Recolor (#9146FF) */
-.button-twitch .icon {
-  background-color: #9146FF !important;
-  -webkit-mask: url('../images/icons/twitch.svg') no-repeat center / contain;
-  mask: url('../images/icons/twitch.svg') no-repeat center / contain;
-  filter: none !important;
-}
-
-/* Discord Mask Recolor (#5865F2) */
-.button-discord .icon {
-  background-color: #5865F2 !important;
-  -webkit-mask: url('../images/icons/discord.svg') no-repeat center / contain;
-  mask: url('../images/icons/discord.svg') no-repeat center / contain;
-  filter: none !important;
-}
-
-/* Bluesky Mask Recolor (#1185FE) */
+/* Stop LittleLink from turning these specific SVG icons white */
+.button-twitch .icon,
+.button-discord .icon,
 .button-bluesky .icon,
 .button-bluesky-alt .icon {
-  background-color: #1185FE !important;
-  -webkit-mask: url('../images/icons/bluesky.svg') no-repeat center / contain;
-  mask: url('../images/icons/bluesky.svg') no-repeat center / contain;
   filter: none !important;
 }
