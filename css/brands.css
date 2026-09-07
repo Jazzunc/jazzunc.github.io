@@ -679,9 +679,8 @@ h1 + p, .subtitle {
 
 /* Bluesky Alt Dark Theme Override */
 .button-bluesky-alt {
-  --button-background: #282828 !important;
-  --button-text: #ffffff !important;
-  --button-border: none !important;
+  --button-background: #282828;
+  --button-text: #ffffff
 }
 
 /* Recolor Twitch Icon (Black -> #9146FF) */
