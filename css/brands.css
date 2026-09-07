@@ -655,3 +655,8 @@
   background-color: #24384d;
   color: #ffffff;
 }
+
+/* Custom Header Color */
+h1 {
+  color: #CDB4DB !important;
+}
