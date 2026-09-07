@@ -677,14 +677,12 @@ h1 + p, .subtitle {
   --button-background: #282828;
 }
 
-/* Recolor Twitch Icon */
+/* Recolor Twitch Icon (White -> #9146FF) */
 .button-twitch .icon {
-  fill: #9146FF !important;
-  color: #9146FF !important;
+  filter: invert(34%) sepia(85%) saturate(3756%) hue-rotate(253deg) brightness(97%) contrast(105%) !important;
 }
 
-/* Recolor Discord Icon */
+/* Recolor Discord Icon (White -> #5865F2) */
 .button-discord .icon {
-  fill: #5865F2 !important;
-  color: #5865F2 !important;
+  filter: invert(39%) sepia(87%) saturate(2250%) hue-rotate(224deg) brightness(99%) contrast(93%) !important;
 }
